@@ -22,8 +22,9 @@ if __name__ == "__main__":
         print("Log File: The file name to write the logs out to")
         print("Log Level: Debug, Info, Warning, Error")
         print("Address: The Address on the message")
+        print("Argument Types: The argument types in the format ',xxx' ie ',is'")
         print("Arguments: A Series of Arguments to be passed in the message")
-        print("Example: ")
+        print('Example: python3 SendOscMsg.py 127.0.0.1 5005 send_osc.log Debug /Hello ,ss "Suck it" "Pumpernickel"')
         
     elif sys.argv[1] == "help":
         print("Input Parameters:")
@@ -32,8 +33,9 @@ if __name__ == "__main__":
         print("Log File: The file name to write the logs out to")
         print("Log Level: Debug, Info, Warning, Error")
         print("Address: The Address on the message")
+        print("Argument Types: The argument types in the format ',xxx' ie ',is'")
         print("Arguments: A Series of Arguments to be passed in the message")
-        print("Example: ")
+        print('Example: python3 SendOscMsg.py 127.0.0.1 5005 send_osc.log Debug /Hello ,ss "Suck it" "Pumpernickel"')
         
     elif len(sys.argv) < 6:
         
@@ -61,10 +63,13 @@ if __name__ == "__main__":
         #Build the argument list
         argument_list = []
         i = 0
-        for i in range(6, len(sys.argv)):
+        for i in range(7, len(sys.argv)):
             logging.debug("Adding argument %s" % (sys.argv[i]))
-            argument_list.append(str(sys.argv[i]))
+            argument_list.append(sys.argv[i])
         
         #Send the message
-        client.send_message(sys.argv[5], argument_list)
+        client.send_message(sys.argv[5], sys.argv[6], argument_list)
         logging.debug("Message Sent")
+        logging.debug("Address: %s" % (sys.argv[5]))
+        for arg in argument_list:
+            logging.debug(str(arg))

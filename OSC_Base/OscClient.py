@@ -20,10 +20,22 @@ class OSC_Client():
 
     #Send a message to the OSC Server
     #param: address - The address for the message
+    #param: argument_types - The argument types in the format ',xxx' ie ',is'
     #param: argument_list - a list of the arguments for the message
-    def send_message(self, addr, argument_list):
+    def send_message(self, addr, argument_types, argument_list):
         msg = osc_message_builder.OscMessageBuilder(address = addr)
+        i=1
         for argument in argument_list:
-            msg.add_arg(argument)
+            type_string = str(argument_types)
+            if type_string[i] == 'i':
+                arg = int(float(argument))
+            elif type_string[i] == 'f':
+                arg = float(argument)
+            elif type_string[i] == 's':
+                arg = str(argument)
+            else:
+                arg = argument
+            msg.add_arg(arg, type_string[i])
+            i+=1
         msg = msg.build()
         self.client.send(msg)

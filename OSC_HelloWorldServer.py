@@ -4,10 +4,6 @@ Created on Mon Jan  4 00:32:12 2016
 
 OSC Hello World Server
 
-Test:
-python3 SendOscMsg.py 127.0.0.1 5005 send_osc.log Debug /Hello "Suck it" "Pumpernickel"
-python3 SendOscMsg.py 127.0.0.1 5005 send_osc.log Debug /World
-
 @author: alex
 """
 

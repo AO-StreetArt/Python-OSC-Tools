@@ -35,3 +35,204 @@ DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 5005
 DEBUG:root:Adding argument Suck it
 DEBUG:root:Adding argument Pumpernickel
 DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ii
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP udp://localhost and Port 12345
+DEBUG:root:Adding argument ii
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,ii
+DEBUG:root:Adding argument 0
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,ii
+DEBUG:root:Adding argument 0
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,ii
+DEBUG:root:Adding argument 1
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,ii
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument false
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument test
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument ,is
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:,is
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 5005
+DEBUG:root:Adding argument Suck it
+DEBUG:root:Adding argument Pumpernickel
+DEBUG:root:Message Sent
+DEBUG:root:Address: /Hello
+DEBUG:root:Suck it
+DEBUG:root:Pumpernickel
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 5005
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 5005
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument ~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:0
+DEBUG:root:~Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument /home/alex/Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:0
+DEBUG:root:/home/alex/Videos/OutOfThisWorld_1-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument /home/alex/Videos/OutOfThisWorld_2-1.avi
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/paint/media/load
+DEBUG:root:0
+DEBUG:root:/home/alex/Videos/OutOfThisWorld_2-1.avi
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument 1
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/mapping/visible
+DEBUG:root:0
+DEBUG:root:1
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument 0
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/mapping/visible
+DEBUG:root:0
+DEBUG:root:0
+DEBUG:root:Creating OSC Client with IP 127.0.0.1 and Port 12345
+DEBUG:root:Adding argument 0
+DEBUG:root:Adding argument 1
+DEBUG:root:Message Sent
+DEBUG:root:Address: /mapmap/mapping/visible
+DEBUG:root:0
+DEBUG:root:1
