@@ -4,6 +4,10 @@ Created on Mon Jan  4 00:32:12 2016
 
 OSC Hello World Server
 
+Test:
+python3 SendOscMsg.py 127.0.0.1 5005 send_osc.log Debug /Hello "Suck it" "Pumpernickel"
+python3 SendOscMsg.py 127.0.0.1 5005 send_osc.log Debug /World
+
 @author: alex
 """
 
@@ -11,14 +15,17 @@ from OSC_Base.OscServer import OSC_Server
 
 if __name__ == "__main__":
     
-    def print_message(unused_addr, args):
+    def print_message(unused_addr):
         print('Hello World')
         
-    def print_world(unused_addr, args, msg):
+    def print_world(unused_addr, args, msg, msg2):
         print('%s World' % (msg))
+        print('%s Pudding' % (msg2))
+        for arg in args:
+            print(arg)
     
     server = OSC_Server()
     server.dispatcher.map("/World", print_message)
-    server.dispatcher.map("/Hello", print_world, "Message")
+    server.dispatcher.map("/Hello", print_world, "Message", "Message2")
     server.start_server("127.0.0.1", 5005)
     server.serve()

@@ -16,14 +16,14 @@ class OSC_Client():
     #param: server_ip - the IP Address of the Server being connected to
     #param: server_port - The Port the OSC Server is listening on
     def __init__(self, server_ip, server_port):
-        self.client = udp_client.UDPClient(str(server_ip), str(server_port))
+        self.client = udp_client.UDPClient(str(server_ip), int(float(server_port)))
 
     #Send a message to the OSC Server
     #param: address - The address for the message
     #param: argument_list - a list of the arguments for the message
-    def send_message(self, address, argument_list):
-        msg = osc_message_builder.OscMessageBuilder(address = str(address))
+    def send_message(self, addr, argument_list):
+        msg = osc_message_builder.OscMessageBuilder(address = addr)
         for argument in argument_list:
             msg.add_arg(argument)
         msg = msg.build()
-        client.send(msg)
+        self.client.send(msg)
